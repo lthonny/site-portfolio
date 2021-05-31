@@ -1,0 +1,33 @@
+.contact-me {
+	padding-bottom: 100px;
+	background-image: url(../img/contact.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.contact-me-content__info {
+	display: flex;
+	justify-content: space-between;
+	&-form {
+		width: 50%;
+		.form {
+			width: 100%;
+			input {
+				border: 1px solid #003;
+				padding: 20px 0px;
+				display: block;
+				// width: 100%;
+				background-color: transparent;
+			}
+		}
+	}
+	&-message {
+		border: 1px solid #003;
+		width: 50%;
+		background-color: transparent;
+	}
+}
+
+.contact-me-content__info-form {
+}

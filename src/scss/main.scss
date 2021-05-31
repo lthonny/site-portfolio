@@ -1,0 +1,28 @@
+@import '_var';
+@import '_zeroing';
+
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.wrapper {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.content-title {
+	font-size: 34px;
+	color: #00bcd4;
+	font-weight: 600;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin: 70px 0px;
+}
+
+@import '_header';
+@import '_contactMe';
+@import '_experiences';
+@import '_mySkills';
+@import '_myProjects';
+@import '_contactMe';
+@import '_footer';
