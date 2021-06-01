@@ -13,21 +13,32 @@
 		width: 50%;
 		.form {
 			width: 100%;
-			input {
-				border: 1px solid #003;
-				padding: 20px 0px;
-				display: block;
-				// width: 100%;
-				background-color: transparent;
+			input[type='text'] {
+				width: 100%;
+				color: #fff;
+				background: none;
+				outline: none;
+				font-size: 1em;
+				padding: 1em 1em;
+				margin-bottom: 1em;
+				border: solid 1px #fff;
+				display: inline-block;
 			}
 		}
 	}
 	&-message {
-		border: 1px solid #003;
-		width: 50%;
 		background-color: transparent;
+		resize: none;
+		width: 100%;
+		background: none;
+		color: #999;
+		font-size: 1em;
+		outline: none;
+		padding: 1em 0.8em;
+		border: solid 1px #999;
+		min-height: 12.5em;
 	}
 }
 
-.contact-me-content__info-form {
+.contact-me-content__info- {
 }
