@@ -1,10 +1,11 @@
 // footer
-const block = document.querySelectorAll('.footer-content__block');
+const block = document.querySelector('.footer-content__block');
 const icons = document.querySelectorAll('.footer-content__block-icons');
 
-block.addEventListener('mouseover', function (event) {
-	const target = event.target;
-	icons.style.backgroundColor = 'red';
-});
-
 console.log(icons);
+
+block.addEventListener('mouseover', event => {
+	console.log('Mouse in');
+	icons.style.backgroundColor = '#fff';
+});
+// block.addEventListener('click', () => alert('1'));
