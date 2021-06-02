@@ -4,25 +4,31 @@
 body {
 	font-family: 'Roboto Condensed', sans-serif;
 }
-.wrapper {
+.container {
 	max-width: 1140px;
 	margin: 0 auto;
 }
 
-.content-title {
-	font-size: 34px;
-	color: #00bcd4;
-	font-weight: 600;
+.title {
 	text-align: center;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	margin: 70px 0px;
+	font-weight: 800;
+	font-size: 34px;
+	padding: 90px 0px 20px 0px;
+}
+
+.text {
+	margin: 0 auto;
+	text-align: center;
+	max-width: 450px;
+	font-size: 18px;
+	line-height: 1.5;
 }
 
 @import '_header';
-@import '_contactMe';
-@import '_experiences';
+@import '_progressBar';
+@import '_orderingProjects';
+@import '_doing';
+@import '_myWorks';
 @import '_mySkills';
-@import '_myProjects';
-@import '_contactMe';
+@import '_contact';
 @import '_footer';

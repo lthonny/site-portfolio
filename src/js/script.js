@@ -1,10 +1,10 @@
-// footer
-const block = document.querySelectorAll('.footer-content__block');
-const icons = document.querySelectorAll('.footer-content__block-icons');
-
-block.addEventListener('mouseover', function (event) {
-	const target = event.target;
-	icons.style.backgroundColor = 'red';
-});
-
-console.log(icons);
+const numb = document.querySelector('.numb');
+let counter = 0;
+setInterval(() => {
+	if (counter == 30) {
+		clearInterval();
+	} else {
+		counter += 1;
+		numb.textContent = counter + '%';
+	}
+}, 80);

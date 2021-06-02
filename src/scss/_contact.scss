@@ -1,0 +1,53 @@
+.contact {
+	margin-bottom: 100px;
+}
+
+.container-form {
+	margin-top: 30px;
+}
+
+.postcard {
+	max-width: 500px;
+	margin: 0 auto;
+}
+.form-row {
+	margin-bottom: 15px;
+}
+.form-row input[type='text'],
+.form-row input[type='email'],
+.form-row textarea {
+	width: 100%;
+	padding: 0px 10px;
+	line-height: 35px;
+	// outline: none;
+	// background-size: 8px 35px;
+	border: 1px solid #eee;
+	border-radius: 5px;
+}
+.form-row textarea {
+	background-attachment: local;
+	background-repeat: repeat;
+	resize: none;
+}
+.form-row-btn input[type='submit'] {
+	margin-top: 10px;
+	cursor: pointer;
+	outline: none;
+	font-size: 13px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: rgba(17, 17, 17, 0.8);
+	padding: 10px 80px;
+	font-size: 16px;
+	border-radius: 5px;
+	// width: 100%;
+}
+.form-row-btn input[type='submit']:hover {
+	transition: 1s;
+	background: #000;
+}
+.form-row-btn {
+	display: flex;
+	justify-content: center;
+}

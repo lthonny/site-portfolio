@@ -8,134 +8,239 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
     rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    
+
   <link rel="stylesheet" href="./src/css/main.css">
   <title>Profile</title>
 </head>
 <body>
+
+
   <header class="header">
-    <div class="header-content">
-      <div class="header-content__profile">
-        <div class="header-content__profile-photo">
-          <img src="./src/img/ava.jpg" alt="">
-        </div>
-        <div class="header-content__profile-name">
-          CHRIS ADAM
-        </div>
-        <div class="header-content__profile-developer">
-          GRAPHIC DESIGNER
-        </div>
-      </div>
-      <div class="header-content__info">
-        <div class="header-content__info-text">
-          <h3>Career Goal</h3>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dignissim velit sed nibh placerat, non aliquam purus
-          pretium. Donec at justo dignissim, maximus elit et, vestibulum mi.
-        </div>
-        <div class="header-content__info-contacts">
-          <ul>
-            <li>D.O.B :21-08-1987</li>
-            <li>PHONE :(+000) 003 003 0052</li>
-            <li>ADDRESS :3030 New York, NY, USA</li>
-            <li>E-MAIL : info@example.com</li>
-            <li>WEBSITE :www.myresume.coms</li>
-          </ul>
+    <div class="bg">
+      <div class="container">
+        <div class="header-content-location">
+          <div class="header-content">
+            <div class="header-content__greeting">
+              <p>Hello, my name is Vasily Shitukhin and I am</p>
+            </div>
+            <div class="header-content__specialty">
+              <h1>FULL STACK WEB DEVELOPER</h1>
+            </div>
+            <div class="header-content__company">
+              <p>I work in a very good company Inspirit</p>
+            </div>
+          </div>
+          <div class="header-content__arrow ">
+            <i class="fas fa-chevron-down animate__animated animate__fadeInDown animate__infinite animate__slow"></i>
+          </div>
         </div>
       </div>
     </div>
   </header>
 
   <main>
-
-    <section class="about-me">
-      <div class="wrapper">
-        <div class="about-me-content">
-          <div class="content-title">About me</div>
+    <section class="menu">
+      <div class="container">
+        <div class="menu-content">
+          <div class="menu-content-nav">
+            <div class="menu-content-nav__name">
+              <h3>Vasily Shitukhin</h3>
+            </div>
+            <nav>
+              <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">SERVICES</a></li>
+                <li><a href="">WORKS</a></li>
+                <li><a href="">SKILLS</a></li>
+                <li><a href="">TESTIMONIALS</a></li>
+                <li><a href="">CONTACT</a></li>
+              </ul>
+            </nav>
+          </div>
         </div>
       </div>
     </section>
+    <span class="line"></span>
+
+    <section class="doing">
+      <div class="container">
+        <div class="doing-content">
+          <div class="title">THIS IS WHAT I DO</div>
+          <span class="line-doing"></span>
+          <div class="text">
+            No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people’s
+            eyes, to reveal the marvels around.
+          </div>
+          <div class="doing-content-container">
+            <div class="doing-content-container-item">
+              <div class="doing-content-container-item__icon">
+                <i class="fas fa-magic"></i>
+              </div>
+              <div class="doing-content-container-item__title">
+                WEB DESIGN
+              </div>
+              <div class="doing-content-container-item__text">
+                Good things come to those who wait, but only the things left by those who hustle
+              </div>
+            </div>
+            <div class="doing-content-container-item">
+              <div class="doing-content-container-item__icon">
+                <i class="fas fa-puzzle-piece"></i>
+              </div>
+              <div class="doing-content-container-item__title">
+                WEB PROGRAMMING
+              </div>
+              <div class="doing-content-container-item__text">
+                Good things come to those who wait, but only the things left by those who hustle
+              </div>
+            </div>
+            <div class="doing-content-container-item">
+              <div class="doing-content-container-item__icon">
+                <i class="fas fa-medal"></i>
+              </div>
+              <div class="doing-content-container-item__title">
+                BRANDING
+              </div>
+              <div class="doing-content-container-item__text">
+                Good things come to those who wait, but only the things left by those who hustle
+              </div>
+            </div>
+            <div class="doing-content-container-item">
+              <div class="doing-content-container-item__icon">
+                <i class="fas fa-question"></i>
+              </div>
+              <div class="doing-content-container-item__title">
+                CONSULTATION
+              </div>
+              <div class="doing-content-container-item__text">
+                Good things come to those who wait, but only the things left by those who hustle
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="works">
+      <div class="container">
+        <div class="works-content">
+          <div class="title">MY WORKS</div>
+          <span class="line-doing"></span>
+          <div class="text">No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people’s
+          eyes, to reveal the marvels around.
+        </div>
+        <div class="works-content-items">
+          <div class="works-content-item">
+            img
+          </div>
+          <div class="works-content-item">
+            img
+          </div>
+          <div class="works-content-item">
+            img
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
 
     <section class="my-skills">
-      <div class="wrapper">
+      <div class="container">
         <div class="my-skills-content">
-          <div class="content-title">My skills</div>
+          <div class="title">MY SKILLS</div>
+          <span class="line-doing"></span>
+          <div class="text">No one lights a lamp in order to  hide it behind the door: the purpose of light is to create more light, to open people’s
+          eyes, to reveal the marvels around.
+          </div>
+          <div class="progress-bar">
+            <div class="circular">
+              <div class="inner"></div>
+              <div class="outer"></div>
+              <div class="numb">
+                0%
+              </div>
+              <div class="circle">
+                <div class="dot">
+                  <span></span>
+                </div>
+                <div class="bar left">
+                  <div class="progress"></div>
+                </div>
+                <div class="bar right">
+                  <div class="progress"></div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="my-projects">
-      <div class="wrapper">
-        <div class="my-projects-content">
-          <div class="content-title">My projects</div>
-          <div class="my-projects-content__name">
-            <div></div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <section class="contact-me">
-      <div class="wrapper">
-        <div class="contact-me-content">
-          <div class="content-title">CONTACT ME</div>
-          <div class="contact-me-content__info">
-            <div class="contact-me-content__info-form">
-              <form class="form"action="">
-                <input type="text" placeholder="Name">
-                <input type="text" placeholder="Email">
-                <input type="text" placeholder="Mobule Number">
-              </form>
-            </div>
-            <div class="contact-me-content__info-message">
-              <textarea name="" id="" cols="30" rows="10" placeholder="Message">
-              </textarea>
-            </div>
+    <section class="contact">
+      <div class="container">
+        <div class="contact-content">
+          <div class="title">DROP ME A LINE</div>
+          <span class="line-doing"></span>
+          <div class="text">
+            No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people’s
+            eyes, to reveal the marvels around.
           </div>
-
+          <div class="container-form">
+            <form action="" class="postcard">
+              <div class="form-row">
+                <input type="text" id="name" required placeholder='Name'>
+              </div>
+              <div class="form-row">
+                <input type="email" id="email" required placeholder='Email'>
+              </div>
+              <div class="form-row">
+                <textarea rows="5" id="message" required placeholder='Message'></textarea>
+              </div>
+              <div class="form-row-btn">
+                <input type="submit" value="Send Messages">
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="footer">
-    <div class="wrapper">
-      <div class="footer-content">
-        <div class="footer-content__block">
-          <div class="footer-content__block-icons">
-            <i class="fas fa-map-marker-alt"></i>
-          </div>
-          <div class="footer-content__block-icons-title">
-            Location
-          </div>
-          <div class="footer-content__block-icons-text">
-            3030 New York, NY, USA
-          </div>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-content-icons">
+        <div class="footer-content__icon">
+          <i class="fab fa-vk"></i>
         </div>
-        <div class="footer-content__block">
-          <div class="footer-content__block-icons">
-            <i class="fas fa-envelope"></i>
-          </div>
-          <div class="footer-content__block-icons-title">
-            Email
-          </div>
-          <div class="footer-content__block-icons-text">
-            info@example.com
-          </div>
+        <div class="footer-content__icon">
+          <i class="fab fa-instagram"></i>
         </div>
-        <div class="footer-content__block">
-          <div class="footer-content__block-icons">
-            <i class="fas fa-phone-alt"></i>
-          </div>
-          <div class="footer-content__block-icons-title">
-            Call Me
-          </div>
-          <div class="footer-content__block-icons-text">
-            (+000) 003 003 0052
-          </div>
+        <div class="footer-content__icon">
+          <i class="fab fa-telegram-plane"></i>
+        </div>
+        <div class="footer-content__icon">
+          <i class="fab fa-github-alt"></i>
+        </div>
+        <div class="footer-content__icon">
+          <i class="fas fa-envelope"></i>
         </div>
       </div>
     </div>
-  </footer>
+  </div>
+</footer>
+
+
   <script src="https://kit.fontawesome.com/50f730e0bb.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
   <script src='./src/js/script.js'></script>
 </body>
 </html>
