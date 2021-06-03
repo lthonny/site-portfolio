@@ -50,29 +50,75 @@
 	}
 	&__specialty {
 		padding: 20px 0px 30px 0px;
-		font-weight: 800;
+		font-weight: bold;
 		font-size: 44px;
+		letter-spacing: 5px;
+		font: 700 40px/1.2 Raleway, sans-serif;
 	}
 	&__company {
 		font-size: 20px;
+		font-size: 16px;
 	}
 }
 
 @media (max-width: 320px) {
+	.header {
+		height: 40vh;
+		width: 100%;
+		background-image: url('../img/header.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		position: relative;
+		color: #fff;
+	}
+	.bg {
+		background-color: rgba(61, 61, 61, 0.7);
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 40vh;
+	}
+	.header-content-location {
+		position: absolute;
+		width: 100%;
+		top: 20%;
+		left: 0;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+	}
 	.header-content__greeting {
-		font-size: 22px;
+		font-size: 16px;
 	}
 	.header-content__specialty {
-		font-size: 34px;
+		font-size: 24px;
 	}
 	.header-content__company {
 		font-size: 16px;
+	}
+	.header-content__arrow {
+		position: absolute;
+		top: 200px;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		border: 2px solid #fff;
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		cursor: pointer;
+		i {
+			font-size: 20px;
+		}
 	}
 }
 
 // menu
 .menu {
 	padding: 20px 0px;
+	// text-align: center;
 }
 
 .menu-content-nav {
@@ -102,23 +148,28 @@
 @media (max-width: 320px) {
 	.menu-content-nav {
 		display: flex;
-		justify-content: center;
+		justify-content: space-between;
 		&__name {
-			font-size: 20px;
 			display: none;
 		}
 		nav {
+			display: flex;
+			justify-content: center;
+			margin-left: 25%;
 			ul {
-				text-align: center;
-				width: 100px;
-				line-height: 1.5;
 				li {
+					display: block;
+					margin-right: 0px;
 					font-size: 16px;
-					margin: 0px;
+					text-align: center;
+					line-height: 1.5;
 					a {
 						text-decoration: none;
 						color: #000;
 					}
+				}
+				li:last-child {
+					margin: 0px;
 				}
 			}
 		}
@@ -134,7 +185,3 @@
 	height: 1px;
 	margin-bottom: 40px;
 }
-
-
-
-

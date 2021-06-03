@@ -1,0 +1,79 @@
+.freelanceProjects {
+	width: 100%;
+	height: 250px;
+	background-image: url('../img/freelance-projects.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	// position: relative;
+}
+
+.freelanceProjects-content {
+	text-align: center;
+	&__title {
+		font-size: 30px;
+		font-weight: bold;
+		margin-bottom: 20px;
+	}
+	&__text {
+		font-size: 20px;
+	}
+	a {
+		text-decoration: none;
+		color: #000;
+	}
+	&__btn {
+		padding: 10px 0px;
+		background-color: #fff;
+		width: 120px;
+		margin: 0 auto;
+		border-radius: 3px;
+		margin-top: 35px;
+	}
+}
+
+.freelanceProjects-bg {
+	background-color: rgba(61, 61, 61, 0.7);
+	// position: absolute;
+	// top: 0;
+	// left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+@media (max-width: 320px) {
+	.freelanceProjects-content {
+		text-align: center;
+		&__title {
+			font-size: 17px;
+			font-weight: bold;
+			margin-bottom: 20px;
+		}
+		&__text {
+			font-size: 14px;
+		}
+		a {
+			text-decoration: none;
+			color: #000;
+		}
+		&__btn {
+			padding: 10px 0px;
+			background-color: #fff;
+			width: 120px;
+			margin: 0 auto;
+			border-radius: 3px;
+			margin-top: 35px;
+		}
+	}
+
+	.freelanceProjects {
+		width: 100%;
+		height: 200px;
+	}
+}
