@@ -54,3 +54,27 @@
 		}
 	}
 }
+
+@media (max-width: 1090px) {
+	.doing-content-container {
+		margin-top: 20px;
+		.doing-content-container-item {
+			margin: 0 auto;
+			width: 300px;
+			margin-bottom: 25px;
+		}
+	}
+}
+
+@media (max-width: 1010px) {
+	.doing-content-container {
+		margin-top: 50px;
+		justify-content: space-around;
+		.doing-content-container-item {
+			margin: 0 auto;
+			width: 300px;
+			margin-bottom: 25px;
+			margin: 0px 20px 25px 20px;
+		}
+	}
+}
