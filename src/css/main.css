@@ -62,11 +62,6 @@ h6 {
   font-weight: 400;
 }
 
-._error {
-  -webkit-box-shadow: 0 0 15px red;
-          box-shadow: 0 0 15px red;
-}
-
 body {
   font-family: "Roboto Condensed", sans-serif;
 }
