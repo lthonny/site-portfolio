@@ -129,8 +129,10 @@
 .menu-content-nav {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	&__name {
 		font-size: 20px;
+		align-items: center;
 	}
 	nav {
 		ul {
