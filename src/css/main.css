@@ -311,8 +311,8 @@ name .menu-content-nav__name {
   }
   .menu-content-nav nav ul li {
     display: inline;
-    margin-right: 40px;
-    font-size: 5px;
+    margin-right: 20px;
+    font-size: 10px;
   }
   .menu-content-nav nav ul li a {
     text-decoration: none;
