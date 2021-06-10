@@ -311,7 +311,7 @@ name .menu-content-nav__name {
   }
   .menu-content-nav nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 25px;
     font-size: 10px;
   }
   .menu-content-nav nav ul li a {
@@ -320,6 +320,10 @@ name .menu-content-nav__name {
   }
   .menu-content-nav nav ul li:last-child {
     margin: 0px;
+  }
+
+  .header-content__specialty {
+    font-size: 30px;
   }
 }
 .line {
