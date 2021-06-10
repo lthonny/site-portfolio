@@ -243,11 +243,8 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
-.menu-content-nav__name {
+name .menu-content-nav__name {
   font-size: 20px;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -295,11 +292,9 @@ body {
     padding-left: 0;
   }
   .menu-content-nav nav ul li {
-    display: block;
-    margin: 0 auto;
-    font-size: 16px;
-    text-align: center;
-    line-height: 1.5;
+    display: inline;
+    margin-right: 40px;
+    font-size: 5px;
   }
   .menu-content-nav nav ul li a {
     text-decoration: none;
@@ -725,6 +720,24 @@ body {
     margin-bottom: 50px;
   }
 }
+.form-row-btn {
+  margin-top: 10px;
+  cursor: pointer;
+  outline: none;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: rgba(17, 17, 17, 0.8);
+  padding: 10px 80px;
+  font-size: 16px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.form-row-btn a {
+  color: #fff;
+}
+
 .footer {
   width: 100%;
   background-color: #1a1d22;
