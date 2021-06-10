@@ -21,7 +21,8 @@
 .header-content-location {
 	position: absolute;
 	width: 100%;
-	top: 50%;
+	height: 100%;
+	top: 0;
 	left: 0;
 	text-align: center;
 	display: flex;
@@ -45,6 +46,23 @@
 }
 
 .header-content {
+	position: absolute;
+	top: 50%;
+	&__photo {
+		position: absolute;
+		top: 10%;
+		left: auto;
+		right: auto;
+		// margin: 0 auto;
+		background-image: url('/src/img/ava.jpg');
+		width: 200px;
+		height: 200px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		border-radius: 50%;
+		// padding-bottom: 200px;
+	}
 	&__greeting {
 		font-size: 24px;
 	}
@@ -93,7 +111,7 @@
 		font-size: 16px;
 	}
 	.header-content__specialty {
-		font-size: 24px;
+		font-size: 18px;
 	}
 	.header-content__company {
 		font-size: 16px;

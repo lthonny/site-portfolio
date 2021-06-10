@@ -110,7 +110,8 @@ body {
 .header-content-location {
   position: absolute;
   width: 100%;
-  top: 50%;
+  height: 100%;
+  top: 0;
   left: 0;
   text-align: center;
   display: -webkit-box;
@@ -143,6 +144,23 @@ body {
   font-size: 20px;
 }
 
+.header-content {
+  position: absolute;
+  top: 50%;
+}
+.header-content__photo {
+  position: absolute;
+  top: 10%;
+  left: auto;
+  right: auto;
+  background-image: url("/src/img/ava.jpg");
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
 .header-content__greeting {
   font-size: 24px;
 }
@@ -198,7 +216,7 @@ body {
   }
 
   .header-content__specialty {
-    font-size: 24px;
+    font-size: 18px;
   }
 
   .header-content__company {
@@ -721,7 +739,9 @@ name .menu-content-nav__name {
   }
 }
 .form-row-btn {
-  margin-top: 10px;
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 30px;
   cursor: pointer;
   outline: none;
   font-size: 13px;
