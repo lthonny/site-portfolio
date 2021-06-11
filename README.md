@@ -1,5 +1,5 @@
 # sitePortfolio 
-#This site was my internship test assignment.
+### This site was my internship test assignment.
 
 ## To use the preprocessor SCSS:
 I used the vs code plugin which translated the sass syntax into css and put the code in the css folder.
