@@ -12,7 +12,7 @@
 
 
 
-## To use the preprocessor SCSS
+### To use the preprocessor SCSS
 I used the vs code plugin which translated the sass syntax into css and put the code in the css folder.
 To start using it, let's go to the vs code extension:
 
