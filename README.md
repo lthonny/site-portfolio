@@ -39,6 +39,7 @@ To start using it, let's go to the vs code extension:
 - go to vs code and go to extensions
 - in the search box, write Live Sass Compiler
 - click install
+
 ![screenshot of sample](https://user-images.githubusercontent.com/58366884/121660608-16c30f80-caac-11eb-8a24-b131c3ff8362.png)
 
 
