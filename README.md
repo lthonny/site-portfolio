@@ -1,13 +1,17 @@
-# sitePortfolio this site was my internship test assignments.
-## Site link:
-https://lthonny.github.io/sitePortfolio/
-
+# sitePortfolio 
+#This site was my internship test assignment.
 
 ## To use the preprocessor SCSS:
 I used the vs code plugin which translated the sass syntax into css and put the code in the css folder.
 To start using it, let's go to the vs code extension:
-    `-go to vs code and go to extensions
+    -go to vs code and go to extensions
     -in the search box, write Live Sass Compiler
-    -click install`
+    -click install
+    dir /fonts
+    dir /images
+    dir /js
 ![screenshot of sample](https://user-images.githubusercontent.com/58366884/121660608-16c30f80-caac-11eb-8a24-b131c3ff8362.png)
 
+
+## Site link:
+https://lthonny.github.io/sitePortfolio/
