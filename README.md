@@ -10,6 +10,8 @@
 - For the progress Bar animation, I used the library
 - animate.css library
 - wow library for motion animation
+- Query-circle-progress 
+- Bootstrap
 - tried to use the syntax of the BEM methodology, but it did not work for me (
 
 ### This project contains the following files and folders:
@@ -26,6 +28,9 @@
 - Jquery cdn <https://cdnjs.com/libraries/jquery>
 - Animate.css <https://animate.style/#utilities>
 - WoW cdn <https://cdnjs.com/libraries/wow>
+- Sass <https://sass-lang.com/>
+- Bootstrap cdn <https://www.bootstrapcdn.com/>
+- Jquery-circle-progress cdn <https://cdnjs.com/libraries/jquery-circle-progress>
 
 ### To use the preprocessor SCSS
 I used the vs code plugin which translated the sass syntax into css and put the code in the css folder.
