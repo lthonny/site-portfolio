@@ -29,12 +29,34 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 ```
 - Fontawesome <https://fontawesome.com/>
+```html
+<script src="https://kit.fontawesome.com/50f730e0bb.js" crossorigin="anonymous"></script>
+```
 - Jquery cdn <https://cdnjs.com/libraries/jquery>
+```html
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+```
 - Animate.css <https://animate.style/#utilities>
+```html
+//connection takes place in the block <head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+```
 - WoW cdn <https://cdnjs.com/libraries/wow>
+```html
+//connection takes place in the block <head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js">
+```
 - Sass <https://sass-lang.com/>
+expansion
 - Bootstrap cdn <https://www.bootstrapcdn.com/>
+```html
+//connection takes place in the block <head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" integrity="undefined" crossorigin="anonymous">
+```
 - Jquery-circle-progress cdn <https://cdnjs.com/libraries/jquery-circle-progress>
+```html
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
+```
 
 ### Connecting scripts
 
