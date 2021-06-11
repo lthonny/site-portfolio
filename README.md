@@ -2,6 +2,16 @@
 
 **This site was my internship test assignment.**
 
+### Technologies used
+- sass preprocessor
+- Google Fonts fonts
+- Fontawesome icons
+- jquery library
+- For the progress Bar animation, I used the library
+- animate.css library
+- wow library for motion animation
+- tried to use the syntax of the BEM methodology, but it did not work for me (
+
 ### This project contains the following files and folders:
 - main file index.html
 - the src folder in which the following folders are stored
