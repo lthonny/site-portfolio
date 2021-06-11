@@ -1,3 +1,3 @@
 # sitePortfolio this site was my internship test assignments.
-## LINK:
+## Site link:
 https://lthonny.github.io/sitePortfolio/
