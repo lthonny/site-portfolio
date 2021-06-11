@@ -20,7 +20,12 @@
 - js folder for storing scripts and site animation
 - the scss folder contains all the style files, which are later translated into the css folder
 
-
+### Installation of technologies
+- Google Fonts <https://fonts.google.com/>
+- Fontawesome <https://fontawesome.com/>
+- Jquery cdn <https://cdnjs.com/libraries/jquery>
+- Animate.css <https://animate.style/#utilities>
+- WoW cdn <https://cdnjs.com/libraries/wow>
 
 ### To use the preprocessor SCSS
 I used the vs code plugin which translated the sass syntax into css and put the code in the css folder.
