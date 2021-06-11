@@ -32,6 +32,11 @@
 - Bootstrap cdn <https://www.bootstrapcdn.com/>
 - Jquery-circle-progress cdn <https://cdnjs.com/libraries/jquery-circle-progress>
 
+### Connecting scripts
+<link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+    rel="stylesheet">
+
 ### To use the preprocessor SCSS
 I used the vs code plugin which translated the sass syntax into css and put the code in the css folder.
 To start using it, let's go to the vs code extension:
