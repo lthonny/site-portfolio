@@ -25,6 +25,7 @@
 ### Installation of technologies
 - Google Fonts <https://fonts.google.com/>
 ```html
+//connection takes place in the block <head>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 ```
 - Fontawesome <https://fontawesome.com/>
