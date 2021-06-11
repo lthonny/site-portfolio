@@ -74,5 +74,5 @@ To start using it, let's go to the vs code extension:
 
 
 ## Site link:
-***Site posted on GitHub Pages***
+**Site posted on GitHub Pages**
 https://lthonny.github.io/sitePortfolio/
