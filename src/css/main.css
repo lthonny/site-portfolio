@@ -160,6 +160,7 @@ body {
   background-size: cover;
   background-position: center;
   border-radius: 50%;
+  border: 1px solid #fff;
 }
 .header-content__greeting {
   font-size: 24px;
@@ -180,7 +181,6 @@ body {
   .header {
     height: 40vh;
     width: 100%;
-    background-image: url("../img/header.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -216,7 +216,7 @@ body {
   }
 
   .header-content__specialty {
-    font-size: 18px;
+    font-size: 0px;
   }
 
   .header-content__company {
@@ -311,8 +311,8 @@ name .menu-content-nav__name {
   }
   .menu-content-nav nav ul li {
     display: inline;
-    margin-right: 40px;
-    font-size: 5px;
+    margin-right: 25px;
+    font-size: 10px;
   }
   .menu-content-nav nav ul li a {
     text-decoration: none;
@@ -320,6 +320,10 @@ name .menu-content-nav__name {
   }
   .menu-content-nav nav ul li:last-child {
     margin: 0px;
+  }
+
+  .header-content__specialty {
+    font-size: 30px;
   }
 }
 .line {
@@ -774,6 +778,7 @@ name .menu-content-nav__name {
 }
 
 .footer-content__icon {
+  cursor: pointer;
   width: 30px;
   height: 30px;
   border-radius: 5px;
@@ -789,9 +794,22 @@ name .menu-content-nav__name {
       -ms-flex-pack: center;
           justify-content: center;
 }
+.footer-content__icon a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.1);
+}
 .footer-content__icon i {
   font-size: 14px;
 }
 .footer-content__icon:last-child {
   margin: 0px;
+}
+
+.footer-content__icon:hover {
+  -webkit-transition: 2s;
+  transition: 2s;
+  border: 1px solid #fff;
+}
+.footer-content__icon:hover i {
+  color: #fff;
 }

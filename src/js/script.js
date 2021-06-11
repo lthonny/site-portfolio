@@ -33,3 +33,6 @@ $(function () {
 			.css('opacity', '1');
 	});
 });
+
+wow = new WOW({});
+wow.init();

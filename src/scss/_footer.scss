@@ -12,6 +12,7 @@
 }
 
 .footer-content__icon {
+	cursor: pointer;
 	width: 30px;
 	height: 30px;
 	border-radius: 5px;
@@ -20,10 +21,22 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	a {
+		text-decoration: none;
+		color: rgba(255, 255, 255, 0.1);
+	}
 	i {
 		font-size: 14px;
 	}
 	&:last-child {
 		margin: 0px;
+	}
+}
+
+.footer-content__icon:hover {
+	transition: 2s;
+	border: 1px solid #fff;
+	i {
+		color: #fff;
 	}
 }
