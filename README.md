@@ -1,6 +1,6 @@
 # sitePortfolio 
 
-This site was my internship test assignment.
+**This site was my internship test assignment.**
 
 ## To use the preprocessor SCSS:
 
