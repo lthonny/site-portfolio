@@ -1,5 +1,9 @@
 @import '_zeroing';
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	font-family: 'Roboto Condensed', sans-serif;
 }
@@ -32,3 +36,31 @@ body {
 @import '_mySkills';
 @import '_contact';
 @import '_footer';
+
+
+
+
+
+.arrowUp {
+	position: fixed;
+	bottom: 5%;
+	right: 3%;
+	color: #fff;
+	width: 35px;
+	height: 35px;
+	background-color: rgba(135, 135, 135, 0.5);
+	z-index: 99;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 15;
+	border-radius: 5px;
+	transition: .5s;
+	// display: none;
+	i {
+		color: #fff;
+	}
+	i:active {
+		color: #E7746F;
+	}
+}

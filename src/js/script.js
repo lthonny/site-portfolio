@@ -36,3 +36,19 @@ $(function () {
 
 wow = new WOW({});
 wow.init();
+
+
+
+// arrayUp
+const arrayUp = document.querySelector('.arrowUp');
+
+// function up(arrayUp) {
+// 	console.log(arrayUp.scrollIntoView(top));
+// 	// if (window.scrollTop > 100) {
+// 		// arrayUp.style.display = 'block';
+// 	// }
+
+// }
+
+// up(arrayUp);
+
