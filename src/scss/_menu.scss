@@ -1,4 +1,3 @@
-
 .menu {
 	padding: 15px 0px 10px 0px;
 	// text-align: center;
@@ -11,7 +10,7 @@
 
 .menu-content-nav {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	name &__name {
 		font-size: 20px;
 		align-items: center;
@@ -37,7 +36,7 @@
 @media (max-width: 480px) {
 	.menu {
 		margin: 0 auto;
-		position: static;
+		// position: static;
 	}
 	.menu-content-nav {
 		display: flex;
@@ -54,8 +53,9 @@
 				padding-left: 0;
 				li {
 					display: inline;
-					margin-right: 25px;
-					font-size: 10px;
+					margin-right: 20px;
+					font-size: 13px;
+					font-weight: 500;
 					a {
 						text-decoration: none;
 						color: #000;
