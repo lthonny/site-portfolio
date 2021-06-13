@@ -48,7 +48,22 @@
 	}
 }
 
-
+.header-content__photo {
+  // position: absolute;
+  // top: 10%;
+  // left: auto;
+  // right: auto;
+	margin: 0 auto;
+	margin-bottom: 50px;
+  background-image: url("../img/ava.jpg");
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
 
 
 @media (max-width: 320px) {
