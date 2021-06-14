@@ -142,7 +142,7 @@ body {
 .freelanceProjects {
   width: 100%;
   height: 250px;
-  background-image: url("../img/freelance-projects.jpg");
+  background-image: url("../img/freelance-projects.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -646,8 +646,8 @@ name .menu-content-nav__name {
   }
   .menu-content-nav nav ul li {
     display: inline;
-    margin-right: 20px;
-    font-size: 13px;
+    margin-right: 10px;
+    font-size: 12px;
     font-weight: 500;
   }
   .menu-content-nav nav ul li a {
