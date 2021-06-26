@@ -4,10 +4,10 @@
 
 .works-content-items {
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	flex-wrap: wrap;
 	margin-top: 80px;
-	.works-content-item {
+	.works-content-item-food {
 		width: 360px;
 		height: 230px;
 		background-image: url(../img/food.jpg);
@@ -15,7 +15,18 @@
 		background-size: cover;
 		background-position: center;
 	}
+	.works-content-item-todo {
+		width: 360px;
+		height: 230px;
+		background-image: url(../img/todo.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
 }
+
+// wow animate__animated animate__backInUp animate__slow
+
 
 @media (max-width: 320px) {
 	.works {

@@ -318,17 +318,24 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-top: 80px;
 }
-.works-content-items .works-content-item {
+.works-content-items .works-content-item-food {
   width: 360px;
   height: 230px;
   background-image: url(../img/food.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.works-content-items .works-content-item-todo {
+  width: 360px;
+  height: 230px;
+  background-image: url(../img/todo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
